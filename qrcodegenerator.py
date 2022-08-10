@@ -6,7 +6,7 @@ qr = qrcode.QRCode(
     border = 5
 )
 
-data = #"https://twitter.com/Overvghoul"
+data = #"https://twitter.com/g1"
 
 qr.add_data(data)
 qr.make(fit = True)
